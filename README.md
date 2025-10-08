@@ -1,31 +1,48 @@
 
 
-# Project Overview & Objectives
+---
 
-### **Problem Statement**
+### *Aim*
 
-Modern applications require different access levels for users such as Admin, Moderator, User, and Guest. Without a proper role-based access system, unauthorized users may gain access to sensitive features, causing security risks and data misuse. A scalable and secure solution is needed to manage multiple roles effectively.
+The aim of the Student Grading System is to simplify the process of recording, managing, and evaluating student academic performance by providing an automated, efficient, and user-friendly platform for teachers and administrators.
 
 ---
 
-### **Key Features**
+### *Features*
 
-* Secure user authentication and registration.
-* Role-based authorization with multiple roles (Admin, Moderator, User, Guest).
-* Protected routes using JWT authentication.
-* Admin dashboard for managing users and roles.
-* Role-specific dashboards with customized access.
-* Scalable design to add or update roles easily.
+1. *Student Management*
+
+   * Add, update, delete student details (name, roll number, course, etc.).
+2. *Grade Entry & Calculation*
+
+   * Input marks and automatically generate grades based on predefined criteria.
+3. *Search & Filter*
+
+   * Easily find students by name, roll number, or course.
+4. *Performance Reports*
+
+   * View overall student performance and individual subject results.
+5. *Role-Based Access* (optional)
+
+   * Separate login for admin/teacher and student to view grades.
+6. *Data Security & Storage*
+
+   * Secure handling of student academic records.
 
 ---
 
-### **Expected Outcome**
+### *Technology*
 
-* A secure and reliable Multi-Role Access Control App.
-* Prevention of unauthorized access.
-* User-friendly dashboards based on roles.
-* Scalable architecture for future role management.
+* *Frontend*: React.js / HTML / CSS / JavaScript
+* *Backend*: Node.js with Express.js
+* *Database*: MongoDB / MySQL (for storing student and grade data)
+* *Tools*:
 
+  * Postman (API testing)
+  * Git/GitHub (version control)
+  * VS Code (development environment)
+
+---
 ---
 
 
